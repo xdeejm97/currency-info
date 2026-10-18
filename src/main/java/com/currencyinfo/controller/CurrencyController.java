@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
-public class CurrencyController {
+class CurrencyController {
 
     private final CurrencyService currencyService;
 
