@@ -1,12 +1,8 @@
 package com.currencyinfo.dto;
 
-import lombok.Getter;
-import lombok.ToString;
+public record GoldDto(
+        String data,
+        float cena
+) {
 
-@Getter
-@ToString
-public class GoldDto {
-
-    private String data;
-    private float cena;
 }
